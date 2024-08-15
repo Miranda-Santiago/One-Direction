@@ -1,0 +1,247 @@
+/*comentario */
+/*Selector universal*/
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Selector de etiqueta*/
+body {
+    background-color: rgb(226, 226, 226);
+    font-family: "Finlandica", sans-serif;
+    font-weight: 550;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+p {
+    color: rgb(59, 24, 26);
+}
+
+/* Selector de clase */
+#tituloonedi {
+    color: rgb(151, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 1000;
+    font-style: italic;
+    font-size: 90px;
+    /*font-optical-sizing: auto;*/
+
+}
+
+
+.parrafo1 {
+    margin: 10px;
+    color: rgb(2, 0, 0);
+    display: flex;
+    text-align: justify;
+    justify-content: flex-end;
+    opacity: 1;
+}
+
+/* Selector de id */
+/*#Albumes{
+    text-align: center;
+    color:rgb(6, 0, 26); 
+}*/
+/**/
+.onedi {
+    height: 350px;
+    width: 400px;
+    margin: 20px;
+    border-radius: 40px;
+    border: solid;
+    border-color: transparent;
+    background-color: rgb(74, 110, 163);
+    padding: 25px 12px 25px 12px;
+    ;
+
+
+}
+
+.onedi1 {
+    height: 350px;
+    width: 400px;
+    margin: 20px;
+    border-radius: 40px;
+    border: solid;
+    /*color:rgb(116,17,17);*/
+    border-color: transparent;
+    background-color: rgb(74, 110, 163);
+    padding: 25px 12px 25px 12px;
+    ;
+
+}
+
+.onedi2 {
+    height: 350px;
+    width: 400px;
+    margin: 20px;
+    border-radius: 40px;
+    border: solid;
+    /*color:rgb(116, 17, 17); */
+    border-color: transparent;
+    background-color: rgb(74, 110, 163);
+    padding: 25px 12px 25px 12px;
+}
+
+
+
+.menu {
+    background-color: rgb(30, 48, 138);
+    box-sizing: auto;
+    opacity: 0.78;
+    font-family: "Finlandica", sans-serif;
+    font-size: 21px;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 10px;
+    text-decoration: none;
+
+}
+
+.secciononedirection {
+    /*  background-image: url("https://i.pinimg.com/564x/8f/a8/66/8fa866174067f61ec588cb0ab2baebf7.jpg");*/
+    background-image: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhzuyqsKGQGfVbsV9pSZI9xuCU04tPp_e9_vBd1ALUs21NTCeaBc0Ki4Z5T1aRKQxLCjgWeIITl29Jf1f0welqCBinitDBPUgZ1ATdcXmOF58DbZrNZ76AXFCpPxyqJ8x442YGTNdtxSTJP/s1600/_gif_one_direction_para_mi_id___xd_by_lovatolovereditions-d5azndu.gif);
+    /*background-image: url("https://i.pinimg.com/originals/b4/c8/f4/b4c8f45d35d62dcefc0b9b14ba9dcb0f.gif");*/
+    display: flex;
+    padding: 235px;
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.lista-flex {
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+}
+
+
+
+
+#galeria {
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: "Lobster Two", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    border-color: transparent;
+}
+
+#Albumes {
+    background-color: rgb(255, 0, 0);
+    font-family: "Lobster Two", sans-serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    border-color: transparent;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#Integrantes {
+    background-color: rgb(255, 0, 0);
+    font-family: "Lobster Two", sans-serif;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    text-align: center; 
+    border-color: transparent;
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+}
+
+div.gallery {
+    margin: 15px;
+    border: 1px ;
+    float: left;
+    width: 180px;
+    
+}
+div.gallery img {
+    width: 100%;
+    height: 287px;
+    border-radius: 7px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(74, 110, 163);
+    color: white;
+    
+}
+#album img{
+    width: 100%;
+    height: auto;
+    border-radius: 17px;
+    
+}
+
+#integrante ol{
+    display: flex;
+    justify-content: space-around;
+}
+#integrante ol img{
+    width: 100%;
+    height: auto;
+    border-radius: 17px;
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 12px 25px 12px;
+}
+#integrante img{
+    margin: 4px;
+    border-radius: 12px;
+    border: solid;
+    /*color:rgb(116,17,17);*/
+    border-color: transparent;
+    background-color: rgb(255, 255, 255);
+    
+    padding: 15px 7px 15px 5px;
+}
+.desc a{
+    color:white;
+    text-decoration: none;
+}
+.desc a:hover{
+    color: beige;
+    opacity: 0.7; 
+    box-shadow: 0 4px 8px #88a8d7;
+    
+}
+form{
+    
+    margin: 15px;
+}
+#fav.member{
+    display: flex;
+    justify-content: center;
+    border-radius: 55px;
+}
